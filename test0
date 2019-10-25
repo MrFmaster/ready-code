@@ -1,1 +1,12 @@
-print("hello world")
+#print("hello world")
+
+class Animal(object)
+  def _init_(self,name,color)
+  Animal.name=name
+  Animal.color=color
+  
+  def run(self)
+  print(name,"在奔跑！")
+animal=Animal("xiaohei","black")
+animal.run()
+  
